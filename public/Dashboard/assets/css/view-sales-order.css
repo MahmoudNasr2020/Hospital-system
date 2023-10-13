@@ -1,0 +1,115 @@
+/* sub navbar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgb(179, 179, 179);
+    z-index: 10;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    background-color: rgb(240, 240, 240);
+    transition: all .4s ease 0s;
+}
+@media (max-width: 992px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        width: 200px !important;
+        text-align: center;
+        padding: 5px 5px;
+    }
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    background-color: rgb(210, 210, 210);
+}
+.navbar .navbar-nav .nav-item .act {
+    font-size: 14px;
+    color: #7366ff;
+    border: 1px solid #7366ff;
+    transition: all .4s ease 0s;
+}
+.navbar .navbar-nav .nav-item .export.disable {
+    font-size: 14px;
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.navbar .navbar-nav .nav-item .export.disable:hover {
+    font-size: 14px;
+    background-color: #ccc;
+    color: #fff;
+    cursor: not-allowed;
+}
+.navbar .navbar-nav .nav-item .act:hover {
+    background-color: #7366ff;
+    color: #fff;
+}
+.navbar .navbar-nav .nav-item .export {
+    background-color: #7366ff;
+    color: #fff;
+    transition: all .4s ease 0s;
+}
+.navbar .navbar-nav .nav-item .export i {
+    margin-right: 3px;
+}
+.navbar .navbar-nav .nav-item .export:hover {
+    background-color: #fff;
+    color: #7366ff;
+}
+
+/* table checkbox */
+.table-responsive table th .active-customer {
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.table-responsive table td {
+    color: #000;
+}
+
+.table-responsive table th {
+    color: #000;
+}
+
+.table-responsive table .active-customer .the-checkbox {
+    position: relative;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: -3px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
+.table-responsive table .active-customer .the-checkbox i {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 0;
+    padding: 2px;
+    opacity: 0;
+    user-select: none;
+}
+
+.paid {
+    background-color: #7366ff;
+    color: #fff;
+}
+
+.paid:hover {
+    background-color: #fff;
+    color: #7366ff;
+    border: 1px solid #7366ff;
+}
+
+/* actions */
+.table-responsive table .actions i {
+    margin: 2px;
+}
+.table-responsive table .actions i:hover {
+    cursor: pointer;
+    color: #7366ff;
+    transition: all .6s ease 0s;
+}
+.table-responsive table .actions i.disable {
+    color: #ccc;
+    cursor: not-allowed;
+}

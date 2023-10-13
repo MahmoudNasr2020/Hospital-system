@@ -1,0 +1,1 @@
+@extends('Hospital.layouts.app')

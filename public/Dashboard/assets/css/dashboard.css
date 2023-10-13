@@ -1,0 +1,148 @@
+.sidebar-list .sidebar-link:hover i {
+    color: #4831D4;
+    transition: all .7s ease 0s;
+}
+.sidebar-list .sidebar-link:hover span {
+    color: #4831D4;
+    transition: all .7s ease 2s;
+}
+
+.quick-action h6 i {
+    transform: rotate(45deg);
+}
+
+.quick-action .card i {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+}
+.quick-action .card .card-body p {
+    text-align: center;
+    font-size: 10px;
+    color: #000;
+}
+.quick-action .card .card-body {
+    padding: 10px 0px !important;
+}
+
+.quick-action a.disable .card i {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(207, 207, 207);
+}
+.quick-action a.disable .card .card-body p {
+    font-size: 10px;
+    color: rgb(207, 207, 207);
+}
+
+.right-list-reports li {
+    margin: 5px 0px !important;
+}
+
+.profit .value {
+    color: #4831D4;
+}
+.profit .text-of-val {
+    color: #4731d4e0 !important;
+    font-size: 16px;
+}
+
+.profit .b-l-primary {
+    border-left: 1px solid #4831D4 !important;
+}
+
+.sales .value {
+    color: #ea2087;
+}
+.sales .text-of-val {
+    color: #ea2087e0 !important;
+    font-size: 16px;
+}
+
+.sales .b-l-primary {
+    border-left: 1px solid #ea2087 !important;
+}
+
+.cash .value {
+    color: #f73164;
+}
+.cash .text-of-val {
+    color: #f73164e0 !important;
+    font-size: 16px;
+}
+
+.cash .b-l-primary {
+    border-left: 1px solid #f73164 !important;
+}
+
+.balance .value {
+    color: #7366ff;
+}
+.balance .text-of-val {
+    color: #7366ffe0 !important;
+    font-size: 16px;
+}
+
+.balance .b-l-primary {
+    border-left: 1px solid #7366ff !important;
+}
+
+.inventory button:hover {
+    background-color: #fff !important;
+    color: #ea2087;
+    border: 1px solid #ea2087 !important;
+
+}
+
+.invoice button {
+    background-color: #7366ff !important;
+    color: #fff;
+}
+
+.invoice button:hover {
+    background-color: #fff !important;
+    color: #7366ff;
+    border: 1px solid #7366ff !important;
+}
+
+.scroll-demo {
+    height: auto !important;
+}
+
+.expense-by-category .card-header {
+    padding: 20px;
+}
+
+.expense-by-category .card-header i {
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+    width: auto !important;
+}
+
+.expense-by-category .card-header p {
+    position: relative;
+    margin: 0;
+    bottom: -7px;
+}
+
+.best-customers .card-header {
+    padding: 20px;
+}
+
+.best-customers .card-header i {
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+    width: auto !important;
+}
+
+.best-customers .card-header p {
+    position: relative;
+    margin: 0;
+    bottom: -7px;
+}

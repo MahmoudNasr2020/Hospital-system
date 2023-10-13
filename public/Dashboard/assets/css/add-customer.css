@@ -1,0 +1,48 @@
+/* sub navbar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgb(179, 179, 179);
+    padding: 15px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    background-color: rgb(240, 240, 240);
+    transition: all .4s ease 0s;
+    margin: 5px;
+}
+@media (max-width: 992px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        width: 200px !important;
+        text-align: center;
+        padding: 5px 5px;
+    }
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    background-color: rgb(210, 210, 210);
+}
+.navbar .navbar-nav .nav-item .save {
+    background-color: #fff;
+    color: #7366ff;
+    border: 1px solid #7366ff;
+    transition: all .4s ease 0s;
+}
+.navbar .navbar-nav .nav-item .save i {
+    margin-right: 3px;
+}
+.navbar .navbar-nav .nav-item .save:hover {
+    background-color: #7366ff;
+    color: #fff;
+}
+.navbar .navbar-nav .nav-item .cancel {
+    background-color: #fff;
+    color: #ff1818;
+    border: 1px solid #ff1818;
+    transition: all .4s ease 0s;
+}
+.navbar .navbar-nav .nav-item .cancel i {
+    margin-right: 3px;
+}
+.navbar .navbar-nav .nav-item .cancel:hover {
+    background-color: #ff1818;
+    color: #fff;
+}

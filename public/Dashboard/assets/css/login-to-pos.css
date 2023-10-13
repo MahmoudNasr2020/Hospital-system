@@ -1,0 +1,73 @@
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.login .logo img {
+    width: 95%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.login h5 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 12px;
+    color: #aaa;
+    font-size: 17px;
+}
+
+.login input {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 12px;
+    padding: 8px 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
+
+.login button {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 12px;
+    padding: 8px 10px;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #7366ff;
+    color: #7366ff;
+    border-radius: 8px;
+}
+
+.login button:hover {
+    background-color: #7366ff;
+    border: 1px solid #7366ff;
+    color: #fff;
+    transition: all .4s ease 0s;
+}
+
+.login .span {
+    width: 20%;
+    margin: auto;
+    margin-bottom: 12px;
+}
+
+.login .span span {
+    font-size: 12px;
+}
+
+.login a {
+    margin-right: 6px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(134, 134, 134);
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
